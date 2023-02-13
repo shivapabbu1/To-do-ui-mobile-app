@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filter-div">
+            <h1>&nbsp;&nbsp;Tasks <span>List</span></h1>
+        <center>
+            <a href="./index.html">
+                <i class="fa-solid fa-circle-arrow-left symbol-index3"></i>
+                <font id="back" style="display: inline;">Back</font>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./index4.html">
+                <i class="fa-solid fa-circle-plus symbol-index2"></i>
+                <font id="new-task" style="display: inline;">Add New Task</font>
+            </a>
+        </center>
+        <br><br>
+        <div id="flex-container">
+            <div class="items" style="height:250px ; width: 250px; margin-left: 540px;">
+                <center><h3 style="margin-left:75px;">Trip to Paris</h3></center>
+                <hr><br>
+                <input type="checkbox" checked class="blur">
+                <lable class="blur">Visit church</lable><br><br>
+                <input type="checkbox" class="main">
+                <lable>&nbsp;&nbsp;&nbsp;&nbsp;Shopping</lable>
+            </div>
+        </div>    
+        </div>
+    </div>
+    <div class="popup-container">
+        <div class="header">
+            <h4>Add New Item</h4>
+            <a href="index3.html"><i class="fa-solid fa-xmark xmark"></i></a>
+            <hr>
+        </div><br><br><br>
+        <form action="">
+            <center><input type="text" placeholder="Visit famous places" value="" id="places"></center>
+            <label for="click" class="add-item-btn">+ Add Item</label>
+        </form>
+    </div>
+</body>
+</html>
